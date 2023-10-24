@@ -10,7 +10,7 @@ class Config(object):
     OWNER_ID = 5977523092 # If you dont know, run the bot and do /id in your private chat with it, also an integer
     
     SUPPORT_CHAT = "new_devil_world"  # Your own group for support, do not add the @
-    START_IMG = "https://graph.org/file/0405a54a58733cbb572cc.jpg"    EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    START_IMG = "https://graph.org/file/0405a54a58733cbb572cc.jpg"    EVENT_LOGS = (-1001650810489)  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= "mongodb+srv://devilop:devilop123@devilserver.bhep18a.mongodb.net/?retryWrites=true&w=majority"
     # RECOMMENDED
     DATABASE_URL = "f44f5f1e-8d2e-4638-b79b-5ca0282ad934"  # A sql database url from elephantsql.com
