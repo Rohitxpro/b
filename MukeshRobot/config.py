@@ -7,18 +7,17 @@ class Config(object):
     API_ID = "" # integer value, dont use ""
     API_HASH = ""
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 2145093972 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_ID = 5977523092 # If you dont know, run the bot and do /id in your private chat with it, also an integer
     
     SUPPORT_CHAT = "the_support_chat"  # Your own group for support, do not add the @
-    START_IMG = ""
-    EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    MONGO_DB_URI= ""
+    START_IMG = "https://graph.org/file/0405a54a58733cbb572cc.jpg"    EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    MONGO_DB_URI= "mongodb+srv://devilop:devilop123@devilserver.bhep18a.mongodb.net/?retryWrites=true&w=majority"
     # RECOMMENDED
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
+    DATABASE_URL = "f44f5f1e-8d2e-4638-b79b-5ca0282ad934"  # A sql database url from elephantsql.com
     CASH_API_KEY = (
-        ""  # Get your API key from https://www.alphavantage.co/support/#api-key
+        "9UJJJV11OMHIJRZ6"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = ""
+    TIME_API_KEY = "XSJUR9B0XIMH"
     # Get your API key from https://timezonedb.com/api
 
     # Optional fields
